@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyLab</string>
+    <string name="my_name">I am Anish Shakya</string>
+    <string name="welcome_message">Welcome to My App!!</string>
+    <string name="string_demo">Working with String.xml </string>
+
+    <string-array name="Semesters">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Forth</item>
+        <item>Fifth</item>
+        <item>Sixth</item>
+    </string-array>
+</resources>
