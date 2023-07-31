@@ -1,10 +1,8 @@
 package com.example.mylab;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -31,7 +29,6 @@ public class FragmentDynamic extends AppCompatActivity {
                 loadFrag(new AFragment(),1);
             }
         });
-
 
         btnFragB.setOnClickListener(new View.OnClickListener() {
             @Override

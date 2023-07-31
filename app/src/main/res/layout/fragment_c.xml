@@ -6,8 +6,6 @@
     android:background="@color/teal_700"
     tools:context=".CFragment"
     >
-
-
     <TextView
         android:id="@+id/txtFrag"
         android:textColor="@color/white"

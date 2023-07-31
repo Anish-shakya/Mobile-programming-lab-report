@@ -31,29 +31,10 @@
           android:text="Frag C"
           android:layout_weight="1"
           />
-
-
    </LinearLayout>
-
    <FrameLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"
       android:id="@+id/container"/>
-
-
-
-   <!-- <fragment
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:id="@+id/frag1"
-        android:name="com.example.mylab.AFragment"/>
-
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:id="@+id/frag2"
-        android:name="com.example.mylab.BFragment"/> -->
 
 </LinearLayout>
