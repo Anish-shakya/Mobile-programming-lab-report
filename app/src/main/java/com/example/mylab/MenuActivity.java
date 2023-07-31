@@ -1,5 +1,4 @@
 package com.example.mylab;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.ContextMenu;
@@ -13,9 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-
 public class MenuActivity extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
-
     Button btnContextMenu,btnPopMenu;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
