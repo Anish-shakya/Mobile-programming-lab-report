@@ -3,6 +3,7 @@
     <string name="my_name">I am Anish Shakya</string>
     <string name="welcome_message">Welcome to My App!!</string>
     <string name="string_demo">Working with String.xml </string>
+    <string name="map_key">AIzaSyAkkZkuBUFUoRSYS-WtIYyHEq5yKTpbW2U</string>
 
     <string-array name="Semesters">
         <item>First</item>
