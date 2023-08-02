@@ -28,6 +28,5 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         googleMap.addMarker(new MarkerOptions().position(kirtipur).title("History of Prithivi Narayan Shah").draggable(true));
 
         googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(kirtipur,15f));
-
     }
 }
