@@ -4,4 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120sp"
+        android:text="Data Display"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Display"
+        android:textSize="20sp"
+        android:layout_marginLeft="10sp"/>
+
+
+
+
 </LinearLayout>
