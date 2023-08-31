@@ -28,8 +28,8 @@ public class FormDataSend extends AppCompatActivity {
                 String Emails = Email.getText().toString();
 
                 Intent intent = new Intent(FormDataSend.this,FormDataDisplay.class);
-                intent.putExtra("Username :", Users);
-                intent.putExtra("Email :",Emails);
+                intent.putExtra("Username", Users);
+                intent.putExtra("Email",Emails);
                 startActivity(intent);
             }
         });

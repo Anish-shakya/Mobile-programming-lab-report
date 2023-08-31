@@ -38,6 +38,10 @@
 
         <activity android:name=".DataSender"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
               </activity>
 
         <activity android:name=".DataReceiver"
@@ -55,10 +59,7 @@
 
         <activity android:name=".FormDataSend"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+
         </activity>
 <!--        <activity-->
 <!--            android:name=".MapActivity"-->
