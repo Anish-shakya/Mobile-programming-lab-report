@@ -7,9 +7,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 public class BFragment extends Fragment {
-    public BFragment() {
-        // Required empty public constructor
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
