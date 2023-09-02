@@ -16,6 +16,7 @@
              android:id="@+id/btnFragA"
             android:text="Frag A"
              android:layout_weight="1"
+             android:layout_margin="2dp"
             />
       <Button
           android:layout_width="wrap_content"
@@ -23,6 +24,8 @@
           android:id="@+id/btnFragB"
           android:text="Frag B"
           android:layout_weight="1"
+          android:layout_margin="2dp"
+
           />
       <Button
           android:layout_width="wrap_content"
@@ -30,8 +33,11 @@
           android:id="@+id/btnFragC"
           android:text="Frag C"
           android:layout_weight="1"
+          android:layout_margin="2dp"
+
           />
    </LinearLayout>
+
    <FrameLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"

@@ -17,17 +17,25 @@
 
 
         <activity android:name=".MainActivity"
-            android:exported="true"/>
-        <activity
-            android:name=".FragmentStatic"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+                 </activity>
+
+        <activity android:name=".CustomDialogMain"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".FragmentStatic"
+            android:exported="true">
+
         </activity>
         <activity android:name=".FragmentDynamic"
             android:exported="true">
+
       </activity>
 
         <activity android:name=".EventListener"
